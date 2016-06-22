@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.4.1)
+  - MBProgressHUD (0.9.2)
+  - PullToBounce (0.0.3)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - MBProgressHUD (~> 0.9.2)
+  - PullToBounce
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  PullToBounce: d2c6300b92fa124f7133e0ca0088bbf7a7059194
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 8764d8e41b0411e09a987ffdd7f5a4045a52db05
+
+COCOAPODS: 1.0.1

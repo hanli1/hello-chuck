@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A85D753CC7F5CBBD9761E74 /* Pods_HelloChuck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9685D65D5C4B31DC154798ED /* Pods_HelloChuck.framework */; };
+		D06926BF1D1A26E2005F3B02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926BE1D1A26E2005F3B02 /* AppDelegate.swift */; };
+		D06926C41D1A26E2005F3B02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06926C21D1A26E2005F3B02 /* Main.storyboard */; };
+		D06926C91D1A26E2005F3B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06926C81D1A26E2005F3B02 /* Assets.xcassets */; };
+		D06926CC1D1A26E2005F3B02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06926CA1D1A26E2005F3B02 /* LaunchScreen.storyboard */; };
+		D06926D71D1A26E2005F3B02 /* HelloChuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926D61D1A26E2005F3B02 /* HelloChuckTests.swift */; };
+		D06926E91D1A2758005F3B02 /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926E11D1A2758005F3B02 /* JokeTableViewController.swift */; };
+		D06926EA1D1A2758005F3B02 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926E21D1A2758005F3B02 /* MealTableViewController.swift */; };
+		D06926EB1D1A2758005F3B02 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926E31D1A2758005F3B02 /* MealViewController.swift */; };
+		D06926EC1D1A2758005F3B02 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926E41D1A2758005F3B02 /* RatingControl.swift */; };
+		D06926ED1D1A2758005F3B02 /* JokesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926E51D1A2758005F3B02 /* JokesTableViewCell.swift */; };
+		D06926EE1D1A2758005F3B02 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926E61D1A2758005F3B02 /* Meal.swift */; };
+		D06926EF1D1A2758005F3B02 /* MealSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926E71D1A2758005F3B02 /* MealSearchBar.swift */; };
+		D06926F01D1A2758005F3B02 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06926E81D1A2758005F3B02 /* MealTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D06926D31D1A26E2005F3B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06926B31D1A26E2005F3B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06926BA1D1A26E2005F3B02;
+			remoteInfo = HelloChuck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57D8EB4C81BD579C5DED3F31 /* Pods-HelloChuck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloChuck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloChuck/Pods-HelloChuck.debug.xcconfig"; sourceTree = "<group>"; };
+		9685D65D5C4B31DC154798ED /* Pods_HelloChuck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloChuck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BBC6D5BC7371202B4B6352 /* Pods-HelloChuck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloChuck.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloChuck/Pods-HelloChuck.release.xcconfig"; sourceTree = "<group>"; };
+		D06926BB1D1A26E2005F3B02 /* HelloChuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloChuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06926BE1D1A26E2005F3B02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D06926C31D1A26E2005F3B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06926C81D1A26E2005F3B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D06926CB1D1A26E2005F3B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D06926CD1D1A26E2005F3B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06926D21D1A26E2005F3B02 /* HelloChuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloChuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06926D61D1A26E2005F3B02 /* HelloChuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloChuckTests.swift; sourceTree = "<group>"; };
+		D06926D81D1A26E2005F3B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06926E11D1A2758005F3B02 /* JokeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
+		D06926E21D1A2758005F3B02 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		D06926E31D1A2758005F3B02 /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		D06926E41D1A2758005F3B02 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		D06926E51D1A2758005F3B02 /* JokesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesTableViewCell.swift; sourceTree = "<group>"; };
+		D06926E61D1A2758005F3B02 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		D06926E71D1A2758005F3B02 /* MealSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealSearchBar.swift; sourceTree = "<group>"; };
+		D06926E81D1A2758005F3B02 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06926B81D1A26E2005F3B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A85D753CC7F5CBBD9761E74 /* Pods_HelloChuck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06926CF1D1A26E2005F3B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AFD489F6B6D3318381563D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57D8EB4C81BD579C5DED3F31 /* Pods-HelloChuck.debug.xcconfig */,
+				B0BBC6D5BC7371202B4B6352 /* Pods-HelloChuck.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7AF71B255CD3BF44B974E08C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9685D65D5C4B31DC154798ED /* Pods_HelloChuck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D06926B21D1A26E2005F3B02 = {
+			isa = PBXGroup;
+			children = (
+				D06926BD1D1A26E2005F3B02 /* HelloChuck */,
+				D06926D51D1A26E2005F3B02 /* HelloChuckTests */,
+				D06926BC1D1A26E2005F3B02 /* Products */,
+				4AFD489F6B6D3318381563D7 /* Pods */,
+				7AF71B255CD3BF44B974E08C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D06926BC1D1A26E2005F3B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06926BB1D1A26E2005F3B02 /* HelloChuck.app */,
+				D06926D21D1A26E2005F3B02 /* HelloChuckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06926BD1D1A26E2005F3B02 /* HelloChuck */ = {
+			isa = PBXGroup;
+			children = (
+				D06926E11D1A2758005F3B02 /* JokeTableViewController.swift */,
+				D06926E21D1A2758005F3B02 /* MealTableViewController.swift */,
+				D06926E31D1A2758005F3B02 /* MealViewController.swift */,
+				D06926E41D1A2758005F3B02 /* RatingControl.swift */,
+				D06926E51D1A2758005F3B02 /* JokesTableViewCell.swift */,
+				D06926E61D1A2758005F3B02 /* Meal.swift */,
+				D06926E71D1A2758005F3B02 /* MealSearchBar.swift */,
+				D06926E81D1A2758005F3B02 /* MealTableViewCell.swift */,
+				D06926BE1D1A26E2005F3B02 /* AppDelegate.swift */,
+				D06926C21D1A26E2005F3B02 /* Main.storyboard */,
+				D06926C81D1A26E2005F3B02 /* Assets.xcassets */,
+				D06926CA1D1A26E2005F3B02 /* LaunchScreen.storyboard */,
+				D06926CD1D1A26E2005F3B02 /* Info.plist */,
+			);
+			path = HelloChuck;
+			sourceTree = "<group>";
+		};
+		D06926D51D1A26E2005F3B02 /* HelloChuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				D06926D61D1A26E2005F3B02 /* HelloChuckTests.swift */,
+				D06926D81D1A26E2005F3B02 /* Info.plist */,
+			);
+			path = HelloChuckTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06926BA1D1A26E2005F3B02 /* HelloChuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06926DB1D1A26E2005F3B02 /* Build configuration list for PBXNativeTarget "HelloChuck" */;
+			buildPhases = (
+				711313FB441EAD90E0129F0E /* [CP] Check Pods Manifest.lock */,
+				D06926B71D1A26E2005F3B02 /* Sources */,
+				D06926B81D1A26E2005F3B02 /* Frameworks */,
+				D06926B91D1A26E2005F3B02 /* Resources */,
+				CE42EFFFCF79813206F110D6 /* [CP] Embed Pods Frameworks */,
+				E48489695EE640BF8951E6F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloChuck;
+			productName = HelloChuck;
+			productReference = D06926BB1D1A26E2005F3B02 /* HelloChuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D06926D11D1A26E2005F3B02 /* HelloChuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06926DE1D1A26E2005F3B02 /* Build configuration list for PBXNativeTarget "HelloChuckTests" */;
+			buildPhases = (
+				D06926CE1D1A26E2005F3B02 /* Sources */,
+				D06926CF1D1A26E2005F3B02 /* Frameworks */,
+				D06926D01D1A26E2005F3B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06926D41D1A26E2005F3B02 /* PBXTargetDependency */,
+			);
+			name = HelloChuckTests;
+			productName = HelloChuckTests;
+			productReference = D06926D21D1A26E2005F3B02 /* HelloChuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06926B31D1A26E2005F3B02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Han Li";
+				TargetAttributes = {
+					D06926BA1D1A26E2005F3B02 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D06926D11D1A26E2005F3B02 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D06926BA1D1A26E2005F3B02;
+					};
+				};
+			};
+			buildConfigurationList = D06926B61D1A26E2005F3B02 /* Build configuration list for PBXProject "HelloChuck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06926B21D1A26E2005F3B02;
+			productRefGroup = D06926BC1D1A26E2005F3B02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06926BA1D1A26E2005F3B02 /* HelloChuck */,
+				D06926D11D1A26E2005F3B02 /* HelloChuckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06926B91D1A26E2005F3B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06926CC1D1A26E2005F3B02 /* LaunchScreen.storyboard in Resources */,
+				D06926C91D1A26E2005F3B02 /* Assets.xcassets in Resources */,
+				D06926C41D1A26E2005F3B02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06926D01D1A26E2005F3B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		711313FB441EAD90E0129F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE42EFFFCF79813206F110D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloChuck/Pods-HelloChuck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E48489695EE640BF8951E6F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloChuck/Pods-HelloChuck-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06926B71D1A26E2005F3B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06926BF1D1A26E2005F3B02 /* AppDelegate.swift in Sources */,
+				D06926EB1D1A2758005F3B02 /* MealViewController.swift in Sources */,
+				D06926EA1D1A2758005F3B02 /* MealTableViewController.swift in Sources */,
+				D06926F01D1A2758005F3B02 /* MealTableViewCell.swift in Sources */,
+				D06926EE1D1A2758005F3B02 /* Meal.swift in Sources */,
+				D06926ED1D1A2758005F3B02 /* JokesTableViewCell.swift in Sources */,
+				D06926EC1D1A2758005F3B02 /* RatingControl.swift in Sources */,
+				D06926E91D1A2758005F3B02 /* JokeTableViewController.swift in Sources */,
+				D06926EF1D1A2758005F3B02 /* MealSearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06926CE1D1A26E2005F3B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06926D71D1A26E2005F3B02 /* HelloChuckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D06926D41D1A26E2005F3B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06926BA1D1A26E2005F3B02 /* HelloChuck */;
+			targetProxy = D06926D31D1A26E2005F3B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D06926C21D1A26E2005F3B02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06926C31D1A26E2005F3B02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06926CA1D1A26E2005F3B02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06926CB1D1A26E2005F3B02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D06926D91D1A26E2005F3B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D06926DA1D1A26E2005F3B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06926DC1D1A26E2005F3B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D8EB4C81BD579C5DED3F31 /* Pods-HelloChuck.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloChuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HelloChuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D06926DD1D1A26E2005F3B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0BBC6D5BC7371202B4B6352 /* Pods-HelloChuck.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloChuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HelloChuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D06926DF1D1A26E2005F3B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloChuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HelloChuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloChuck.app/HelloChuck";
+			};
+			name = Debug;
+		};
+		D06926E01D1A26E2005F3B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloChuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HelloChuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloChuck.app/HelloChuck";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06926B61D1A26E2005F3B02 /* Build configuration list for PBXProject "HelloChuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06926D91D1A26E2005F3B02 /* Debug */,
+				D06926DA1D1A26E2005F3B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06926DB1D1A26E2005F3B02 /* Build configuration list for PBXNativeTarget "HelloChuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06926DC1D1A26E2005F3B02 /* Debug */,
+				D06926DD1D1A26E2005F3B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06926DE1D1A26E2005F3B02 /* Build configuration list for PBXNativeTarget "HelloChuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06926DF1D1A26E2005F3B02 /* Debug */,
+				D06926E01D1A26E2005F3B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06926B31D1A26E2005F3B02 /* Project object */;
+}
